@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>send mail with global variable and attachment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bce69998-abbf-434f-bcd8-fa0ada9d2034</testCaseGuid>
+</TestCaseEntity>
