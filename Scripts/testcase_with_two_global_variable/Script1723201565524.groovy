@@ -30,14 +30,14 @@ props.put("mail.smtp.port", "587") // Replace with your SMTP port
 props.put("mail.smtp.auth", "true")
 props.put("mail.smtp.starttls.enable", "true")
 
-// Define email credentials
-final String username = "aditya_T2" // Replace with your email
-final String password = "Fi" // Replace with your email password
+// Email credentials (assuming they are predefined)
+final String emailUsername = "aditya_T2" // Replace with your email
+final String emailPassword = "Fi" // Replace with your email password
 
 // Create session
 Session session = Session.getInstance(props, new Authenticator() {
     protected PasswordAuthentication getPasswordAuthentication() {
-        return new PasswordAuthentication(username, password)
+        return new PasswordAuthentication(emailUsername, emailPassword)
     }
 })
 
@@ -46,16 +46,18 @@ try {
     Message message = new MimeMessage(session)
 
     // Set From: header field
-    message.setFrom(new InternetAddress(username))
+    message.setFrom(new InternetAddress(emailUsername))
 
     // Set To: header field
-    message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("aditya199")) // Replace with recipient email
+    message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("aditya1993")) // Replace with recipient email
 
     // Set Subject: header field
     message.setSubject("Automation Test Results")
 
-    // Set the content of the email to the global variable value
-    String emailBody = "Test Result: " + GlobalVariable.textboxvalue // Replace with your global variable name
+    // Set the content of the email to include global variables
+    String emailBody = "Test Result: " + GlobalVariable.textboxvalue + 
+                       "\nUsername: " + GlobalVariable.username + 
+                       "\nPassword: " + GlobalVariable.password
     message.setText(emailBody)
 
     // Send message

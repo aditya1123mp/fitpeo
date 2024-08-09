@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>read_mail_for_two_variable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41d1066b-22cc-4631-a377-47d72c9550ed</testCaseGuid>
+</TestCaseEntity>

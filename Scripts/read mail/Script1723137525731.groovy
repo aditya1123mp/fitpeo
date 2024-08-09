@@ -34,8 +34,8 @@ props.put("mail.imaps.port", "993")
 props.put("mail.imaps.ssl.enable", "true")
 
 // Define email credentials
-final String username = "a"
-final String password = ""//app password
+final String username = "aditya1993"
+final String password = "ahum"//app password
 
 // Create session
 Session session = Session.getInstance(props, null)
@@ -86,7 +86,7 @@ try {
             println("Sent Date: " + message.getSentDate())
 
             // Check if it matches the target address
-            if (email.equalsIgnoreCase("aditya_T2_WORK@outlook.com")) {
+            if (email.equalsIgnoreCase("aditya_T")) {
                 println("Match found for: " + email)
                 
                 // Print content type for debugging

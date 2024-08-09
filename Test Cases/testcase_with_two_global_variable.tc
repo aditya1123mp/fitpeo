@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>testcase_with_two_global_variable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d88586f-8b06-4cad-a4e2-a4bc151e3164</testCaseGuid>
+</TestCaseEntity>

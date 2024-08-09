@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>adding header in the excel creats an new excel file along with header</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2d5a16f-3359-4db0-8789-c4ba005e9738</testCaseGuid>
+</TestCaseEntity>
