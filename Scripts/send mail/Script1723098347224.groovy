@@ -32,8 +32,8 @@ props.put("mail.smtp.auth", "true")
 props.put("mail.smtp.starttls.enable", "true")
 
 // Define email credentials
-final String username = "aditya_T2_WORK@outlook.com" // Replace with your email
-final String password = "Fiboo112358@@" // Replace with your email password
+final String username = "a" // Replace with your email
+final String password = "F" // Replace with your email password
 
 // Create session
 Session session = Session.getInstance(props, new Authenticator() {
@@ -50,7 +50,7 @@ try {
     message.setFrom(new InternetAddress(username))
 
     // Set To: header field
-    message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("aditya1993tue@gmail.com")) // Replace with recipient email
+    message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("aditya193")) // Replace with recipient email
 
     // Set Subject: header field
     message.setSubject("Automation Test Results")

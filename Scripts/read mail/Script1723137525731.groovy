@@ -34,8 +34,8 @@ props.put("mail.imaps.port", "993")
 props.put("mail.imaps.ssl.enable", "true")
 
 // Define email credentials
-final String username = "aditya1993tue@gmail.com"
-final String password = "ahum ufhk gxmm yuvy"
+final String username = "a"
+final String password = ""//app password
 
 // Create session
 Session session = Session.getInstance(props, null)
